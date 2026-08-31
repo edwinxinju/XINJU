@@ -359,6 +359,7 @@ img { display: block; max-width: 100%; }
 .floating-chip span { color: var(--accent); font-size: 18px; }
 .floating-chip--top { top: 74px; right: -2px; }
 .floating-chip--bottom { left: -16px; bottom: 82px; animation-delay: -2.5s; }
+.floating-chip--commerce { right: 18px; bottom: 68px; animation-delay: -1.2s; }
 
 @keyframes float { 50% { transform: translateY(-10px); } }
 
@@ -749,6 +750,7 @@ img { display: block; max-width: 100%; }
   .portrait-frame { width: 300px; }
   .floating-chip--top { right: calc(50% - 220px); top: 45px; }
   .floating-chip--bottom { left: calc(50% - 220px); bottom: 43px; }
+  .floating-chip--commerce { right: calc(50% - 220px); bottom: 43px; }
   .about__grid, .skills__grid { grid-template-columns: 1fr; gap: 50px; }
   .capability-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .featured-case { grid-template-columns: 1fr; }
